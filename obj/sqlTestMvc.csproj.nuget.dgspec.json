@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\MVCPROJECTS\\TESTSUNCOUNTED\\sqlTestMvc\\sqlTestMvc.csproj": {}
+  },
+  "projects": {
+    "D:\\MVCPROJECTS\\TESTSUNCOUNTED\\sqlTestMvc\\sqlTestMvc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\MVCPROJECTS\\TESTSUNCOUNTED\\sqlTestMvc\\sqlTestMvc.csproj",
+        "projectName": "sqlTestMvc",
+        "projectPath": "D:\\MVCPROJECTS\\TESTSUNCOUNTED\\sqlTestMvc\\sqlTestMvc.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\MVCPROJECTS\\TESTSUNCOUNTED\\sqlTestMvc\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\MVCPROJECTS\\TESTSUNCOUNTED\\sqlTestMvc\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.32, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.406\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
